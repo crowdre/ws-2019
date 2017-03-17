@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
     <title>Crowd RE 2017</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="js/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="../assets/css/custom.min.css">
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
-      <script src="../bower_components/respond/dest/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
     <script>
 
      var _gaq = _gaq || [];
@@ -30,67 +45,70 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default navbar-fixed-top">
+    <!-- ******HEADER****** --> 
+    <header class="header">
       <div class="container">
-        <div class="navbar-header">
-          <a href="./index.html" class="navbar-brand">Crowd RE 2017</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="./submissions.html">Submissions</a>
-            </li>
-            <li>
-              <a href="./CrowdRE2017-CfP.pdf">CfP</a>
-            </li>
-            <li>
-              <a href="./program.html">Program</a>
-            </li>
-            <li>
-              <a href="./committees.html">Committees</a>
-            </li>
-            <!--<li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" id="previous">Previous <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="previous">
-                <li><a href="https://sse.uni-due.de/crowdre15/">CrowdRE 2015</a></li>
+
+        <div class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="./index.html" class="navbar-brand"><strong>Crowd RE 2017</strong></a>
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="./submissions.html">Submissions</a>
+                </li>
+                <li>
+                  <a href="./CrowdRE2017-CfP.pdf">CfP</a>
+                </li>
+                <li>
+                  <a href="./program.html">Program</a>
+                </li>
+                <li>
+                  <a href="./committees.html">Committees</a>
+                </li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" id="previous">Previous <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="previous">
+                    <li><a href="https://sse.uni-due.de/crowdre15/" target="_blank">CrowdRE 2015</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>-->  
-            <li>
-              <a href="https://sse.uni-due.de/crowdre15/" target="_blank">Previous</a>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <!--<li><a href="http://re2017.org//" target="_blank">RE 2017</a></li>-->
-            <li><a href="https://easychair.org/conferences/?conf=crowdre2017">Submit</a></li>
-          </ul>
+    
+              <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="http://re2017.org//" target="_blank">RE 2017</a></li>-->
+                <li><a href="https://easychair.org/conferences/?conf=crowdre2017">Submit</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container">
-
-      <div class="page-header" id="banner">
-        <br>
         <div class="row">
           <div class="col-md-9">
-            <h1>The Second International Workshop on <br>Crowd-Based Requirements Engineering</h1>
+            <h1 class="name">The Second International Workshop on <br>Crowd-Based Requirements Engineering</h1>
           </div>
           <div class="col-md-3">
             <br>
-            <p class="lead">September 4/5, 2017<br>Lisbon, Portugal<br>Collocated with <a href="http://re2017.org//" target="_blank">RE 2017</a></p> 
+            <strong><p class="lead">September 4/5, 2017<br>Lisbon, Portugal<br>Collocated with <a href="http://re2017.org//" target="_blank">RE 2017</a></p></strong>
           </div>
         </div>
-      </div>
+
+      </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container sections-wrapper">
 
       <div class="row">
         <div class="col-md-9">
-          <h3>Overview</h3>
+        <section class="about section">
+        <div class="section-inner">
+          <h2 class="heading">Overview</h2>
           <p>
           	The rise of mobile, social and cloud apps pose new challenges and opportunities for requirements engineering (RE). Traditional RE techniques have difficulties scaling for (software) product with thousands to millions of users, who form a large and heterogeneous group that can be denoted as a <em>crowd</em>. Researchers have identified several issues with applying RE in the new crowd paradigm. Initial methods and tools are being investigated, but we see the need for more tailored and holistic approaches focusing on Crowd-Based Requirements Engineering.
           </p>
@@ -104,6 +122,9 @@
             <li><a href="./program.html">Program and venue</a>: Workshop format and location</li>
             <li><a href="./cfp.html">Call for papers</a></li>
           </ul>
+          <br>
+        </div>
+        </section>
         </div>
 
         <div class="col-md-3">
@@ -130,10 +151,17 @@
       </div>
     </div>
 
-    <!--<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>-->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="../assets/js/custom.js"></script>
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+
     <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */
     </script>
   </body>
