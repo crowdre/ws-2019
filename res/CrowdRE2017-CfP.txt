@@ -1,94 +1,27 @@
---- CrowdRE 2017: Call for Papers ---
-
-=================================================================================
-2nd International Workshop on Crowd-Based Requirements Engineering (CrowdRE 2017)
-=================================================================================
-In conjunction with RE '17 – 4 September 2017, Lisbon, Portugal
+CrowdRE 2017: Second International Workshop on Crowd-Based Requirements Engineering 
 
 https://crowdre.github.io/ws-2017/
 
-MOTIVATION & GOAL:
+Date: 4 September 2017
+Place: Lisbon, Portugal
 
+*** Motivation & Goal ***
 The rise of mobile, social and cloud apps pose new challenges and opportunities to the field of requirements engineering (RE). Traditional techniques have difficulties scaling up to settings with thousands up to millions of users of a (software) product who form a large and heterogeneous group that can be denoted as a ‘crowd’. Researchers have identified several issues with applying RE in the new crowd paradigm. Initial methods and tools are being investigated, but we see the need for more tailored and holistic approaches focusing on Crowd-Based Requirements Engineering.
-
 The Second Workshop on Crowd-Based Requirements Engineering (CrowdRE 2017) builds on the success of its first edition, which achieved the unification of visions into a coherent RE approach. It aims to attract papers with novel and innovative ideas on CrowdRE, and to facilitate interactive discussions between scientists and representatives of industry in order to define a roadmap for CrowdRE, assess the role of CrowdRE in the software development lifecycle, and work towards a shared base of CrowdRE resources.
+ 
+*** Important Dates ***
+June 9, 2017: abstract submission deadline
+June 16, 2017 (noon CET): EXTENDED paper submission deadline
+June 30, 2017: paper notification
+July 16, 2017: submission of camera-ready papers
+September 4 or 5, 2017: workshop date
 
-SUBMISSIONS:
+*** Past Editions of the Workshop ***
+CrowdRE 2015 at RE'15: https://sse.uni-due.de/crowdre15/
 
-CrowdRE is looking for general submissions containing original research (depending on the paper type 4 to 6 pages IEEE
-format submitted through EasyChair). A unique kind of submission is “competition papers” that provide the solution to
-the problem scenario provided on our website. See the workshop website for details on all paper categories we accept. Each submission will be reviewed by three reviewers.
-
-IMPORTANT DATES:
-
-Paper Submission: 9 June 2017
-Paper Notification: 30 June 2017
-Camera Ready Due: 16 July 2017
-
-PROGRAM COMMITTEE:
-
-Nirav Ajmeri, North Carolina State University (USA)
-Raian Ali, Bournemouth University (UK)
-Daniel Berry, University of Waterloo (Canada)
-Travis D. Breaux, Carnegie Mellon University (USA)
-Fabiano Dalpiaz, Utrecht University (the Netherlands)
-Daniela Damian, University of Victoria (Canada)
-Joerg Doerr, Fraunhofer IESE (Germany)
-Anthony Finkelstein, University College London (UK)
-Vicenzo Gervasi, University of Pisa (Italy)
-Sarah Gregory, Intel Corporation (USA)
-Emitza Guzman, Tech. University of Munich (Germany)
-Irit Hader, University of Haifa (Israel)
-Mahmood Hosseini, University of Massachusetts (USA)
-Zhi Jin, Peking University (China)
-Marjo Kauppinen, University of Helsinki (Finland)
-Fitsum M. Kifetew, Fondazione Bruno Kessler (Italy)
-Tong Li, University of Trento (Italy)
-Soo Ling Lim, University College London (UK)
-Walid Maalej, University of Hamburg (Germany)
-Marc Oriol, Universitat Politècnica de Catalunya (Spain)
-Itzel Morales Ramirez, Fondazione Bruno Kessler (Italy)
-Björn Regnell, Lund University (Sweden)
-Kurt Schneider, Leibniz Universität Hannover (Germany)
-Munidar P. Singh, North Carolina State University (USA)
-Irina Todoran, University of Zurich (Switzerland)
-
-GENERAL CHAIRS:
-
-Xavier Franch, Universitat Politècnica de Catalunya (Spain)
-Anna Perini, Fondazione Bruno Kessler (Italy)
-
-ADDITIONAL ORGANIZERS:
-
+*** Workshop Organizers ***
+Xavier Franch, Universitat Politècnica de Catalunya (Spain) - General Chair
+Anna Perini, Fondazione Bruno Kessler (Italy) - General Chair
 Eduard C. Groen, Fraunhofer IESE (Germany)
 Pradeep K. Murukannaiah, Rochester Institute of Technology (USA)
-Norbert Seyff, FHNW & University Zurich (Switzerland)
-
-KEY QUESTIONS & THEMES OF INTEREST:
-
-CrowdRE 2017 mainly aims at discussing key questions including:
-
---What are the achievements and contributions of CrowdRE approaches thus far? How do they contribute to improving RE?
---What are the risks of going beyond the borders of the ‘brown field’ domain of RE? To what extent are these risks acceptable? What can be done to mitigate these risks?
---In which parts of the software development lifecycle can CrowdRE play a vital role? Which parts are less suited, and why?
---How can data from such a large group of stakeholders be obtained and interpreted?
---Can a sufficient sample size be reached? In what way can crowd members be motivated to contribute the user feedback we require of them? How can the reliability of individual crowd members and of the data in general be determined?
---Assuming that the stakeholders form a crowd, how are requirements best elicited, documented, validated, negotiated and managed? How are data from the crowd best obtained and interpreted?
---Which limitations and risks are associated with proposed alternatives, and how can they be overcome?
---In what way could techniques from Big Data Analytics be leveraged to analyse heterogeneous and large datasets as a new source for new/changed requirements?
---What are common denominators of existing and emerging approaches to make RE more suitable for CrowdRE? How can these approaches complement one another? What are the gaps that have not yet been covered by these solutions?
---Where do the opportunities to collaborate lie? To what extent can the various fields of work be integrated, and where will approaches remain different?
-
-Based on the key questions, the following themes of interest for paper submission include, but are not limited to:
-
---CrowdRE 
---Analysis of user feedback for RE using Big Data 
---Natural language processing, Information Retrieval, Machine Learning, ontologies 
---Crowd-based monitoring and usage mining approaches Integration of RE and crowd analysis approaches borrowed from other disciplines
---Application scenarios of CrowdRE
---The contribution of CrowdRE to prioritization, software adaptation, testing and other software engineering aspects
---The intersection of RE and domains such as sociology, psychology, human factors, and anthropology
---Approaches to motivate, steer, and boost creativity in the crowd 
---Automated RE and the role of the requirements engineer
---Automated RE and data (safeguarding rollback, privacy, traceability and data integrity; measuring validity, reliability, source quality; processing of rejected data)
---Platforms and tools supporting CrowdRE
+Norbert Seyff, University Zurich (Switzerland)
